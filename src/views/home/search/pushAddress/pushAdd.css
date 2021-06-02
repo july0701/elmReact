@@ -1,0 +1,79 @@
+.pushAddressTop{
+    height: 45px;
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0af),
+    to(#0085ff)
+  );
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+}
+.pushAddressTop .el-icon-arrow-left{
+    font-size: 16px;
+    color: #fff;
+}
+.pushAddressTop p{
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.addInfos{
+  padding: 0 0 0 15px;
+  background-color: #fff;
+}
+.addInfos .sir{
+  position: absolute;
+  right: 82px;
+  text-align: center;
+}
+.addInfos .mdn{
+  position: absolute;
+  right: 6px;
+}
+.addInfos li{
+  border-bottom:1px solid #eee;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.addInfos li input{
+  height: 30px;
+  line-height: 30px;
+  width: 80%;
+}
+.addInfos li .spanAddress_{
+  width: 80%;
+  margin: 0;
+  text-align: left;
+}
+.addInfos li .spanAddress_ span{
+  display: block;
+  color: #888888;
+  font-weight: 400;
+  font-size: 13px;
+  width: 250px;
+}
+.addInfos li span{
+  font-weight: bold;
+  font-size: 14px;
+}
+.addInfos li .el-icon-arrow-right{
+  position: absolute;
+  right: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(192, 192, 192);
+}
+.addInfos li .el-icon-edit{
+  position: absolute;
+  right: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(192, 192, 192);
+}

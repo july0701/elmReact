@@ -1,0 +1,23 @@
+.setInfo li {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #fff;
+}
+.user_imgs {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #000;
+}
+.loginOUt{
+    height: 60px;
+    background-color: #fff;
+    line-height: 60px;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,57 @@
+.foodKind {
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.foodKind li {
+  width: 25%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.foodKind img {
+  width: 40px;
+  height: 40px;
+}
+.banner{
+  margin-top: 20px;
+  padding: 0 15px;
+  background-color: #fff;
+}
+._con{
+  background-color: #f4f4f4;
+  height: 110px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+._con .img_food{
+  width: 140px;
+  height: 90px;
+  background: url("../../../static/image/bannerfood.webp") no-repeat;
+  background-size: cover;
+}
+._message{
+  margin-top: 5px;
+  height: 40px;
+  background-image: -webkit-gradient(linear,left top,right top,from(#ffefc4),to(#f3dda0));
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  padding: 0 20px;
+}
+._message .huangguan{
+  background: url("../../../static/image/huangguan.webp") no-repeat;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

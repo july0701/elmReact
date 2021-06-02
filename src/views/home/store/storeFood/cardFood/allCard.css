@@ -1,0 +1,103 @@
+/* need */
+.storePush {
+  padding: 0 15px;
+}
+.foodImg img {
+  width: 90px;
+  height: 90px;
+  background-color: #000;
+  margin-right: 10px;
+  display: inline-block;
+}
+.foodThisInfo {
+  position: relative;
+  width: 100%;
+}
+.foodThisInfo h4 {
+  width: 170px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+}
+.foodThisInfo p {
+  font-size: 12px;
+  color: #999;
+}
+.plus_ {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #2396ff;
+  border-radius: 50%;
+  line-height: 22px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+}
+.plus_ .el-icon-plus {
+  color: #fff;
+  font-size: 16px;
+}
+.foodList_ {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.foodList_ .foodName {
+  width: 20%;
+  background-color: #e9e9e9;
+}
+.foodList_ .fatList {
+  width: 80%;
+}
+.foodList_ .foodName li {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #e9e9e9;
+}
+.foodList_ .foodName li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 12px;
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.foodList_ .foodInfoList {
+  /* width: 100%; */
+  padding: 5px 10px 10px;
+}
+.foodList_ .foodInfoList li {
+  display: flex;
+  margin: 10px 0;
+}
+.desc {
+  width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.h1_ {
+  background: url("../../../../../static/image/dog.gif") no-repeat;
+  width: 100%;
+  height: 250px;
+  color: #b7cf2a;
+  text-align: center;
+}
+.storeImgBg{
+    width: 90%;
+    height: 80px;
+    border-radius: 6px;
+    margin: 0 auto 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #666;
+}
+/* need */

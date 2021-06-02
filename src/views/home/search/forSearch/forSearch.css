@@ -1,0 +1,53 @@
+.adressForNow {
+    padding: 0 0 0 15px;
+}
+.adressForNow li{
+    padding: 15px 15px 15px 0;
+    border-bottom:  1px solid #eee;
+}
+.adressForNow li .p2_{
+    font-size: 13px;
+    color: #999;
+   
+}
+.adressForNow li div input{
+    height: 30px;
+    border: 1px solid #ddd;
+    background-color: rgb(238, 236, 236);
+    color: #999;
+    border-radius: 3px;
+    width: 90%;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: 0;
+}
+.adressForNow li div{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.adressForNow li button{
+    height: 32px;
+    background-color: #0097ff;
+    color: #fff;
+    border-radius: 3px;
+    width: 17%;
+}
+.adressForNow li div .span_span{
+    display: inline-block;
+    width: 10%;
+    height: 30px;
+    border: 1px solid #ddd;
+    background-color: rgb(238, 236, 236);
+    border-radius: 3px;
+    border-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adressForNow li div .span_span .el-icon-search{
+    font-size: 15px;
+    color: #999;
+}

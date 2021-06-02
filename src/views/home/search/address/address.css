@@ -1,0 +1,114 @@
+.title {
+  height: 38px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0af),
+    to(#0085ff)
+  );
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 15px 0;
+  font-size: 18px;
+  color: #fff;
+  align-items: center;
+  font-weight: 300;
+  position: sticky;
+  top: 0;
+}
+.title .el-icon-arrow-left {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.atAddress {
+  height: 60px;
+  background-color: #fff;
+  font-size: 12px;
+  display: flex;
+}
+.atAddress .address_now .el-icon-caret-bottom{
+  font-size: 12px;
+  -webkit-transform-origin-x: 0;
+  -webkit-transform: scale(0.7);
+}
+.cityHowLong{
+  width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.atAddress .address_now {
+  width: 20%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.atAddress .address_inp {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+.atAddress .address_inp input {
+  height: 35px;
+  background-color: #f2f2f2;
+  line-height: 35px;
+  width: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.atAddress .address_inp input {
+  border-radius: 0;
+}
+.atAddress .address_inp span {
+  display: inline-block;
+  height: 35px;
+  background-color: #f2f2f2;
+  width: 30px;
+  text-align: center;
+  line-height: 35px;
+  color: #bdbdbd;
+}
+.my_now li {
+  height: 40px;
+  background-color: #fff;
+  line-height: 40px;
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+.destination li {
+  height: 40px;
+  background-color: #fff;
+  line-height: 40px;
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+.destination li p {
+  font-size: 12px;
+  height: 14px;
+  line-height: 50px;
+  color: rgb(39, 37, 37);
+  font-weight: 300;
+}
+.search_infos {
+  margin-bottom: 52px;
+}
+.search_infos li {
+  background-color: #fff;
+  padding: 10px 20px 10px 12px;
+  margin-bottom: 1px;
+}
+.search_infos li p {
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+}
+.search_infos li .realAddress {
+  width: 84%;
+}

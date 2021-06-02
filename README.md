@@ -7,7 +7,7 @@
 # 使用
 #克隆到本地
 
-#
+#https://github.com/july0701/elmReact.git
 
 #npm install
 
